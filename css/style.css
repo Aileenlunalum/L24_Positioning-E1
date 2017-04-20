@@ -1,0 +1,46 @@
+.cuadroXG{
+  width:400px;
+  height: 400px;
+  margin:100px;
+}
+#rojo{
+    background:red;
+    position:relative;
+    left:300px;
+}
+#azul{
+    background:blue;
+    position:relative;/*posicion respecto al body*/
+    left: 300px;/*cuenta con un margen de 100  lo quiero a la misma altura desde  donde esta
+    se comienza a mover*/
+}
+.cuadroG{
+  width:200px;
+  height: 200px;
+}
+#morado{
+    background:purple;
+    position:absolute;/* respecto al padre mas cercando  posicionado*/
+     top:100px;
+    left:100px;
+
+
+  }
+  #verde{
+      background:green;
+      position:absolute;/*posicion respecto al body*/
+      top:100px;
+     left:100px;
+    }
+.cuadroP{
+  width:100px;
+  height: 100px;
+}
+#amarillo{
+  background:yellow;
+  position:absolute;
+}
+#negro{
+  background:black;
+  z-index: 100;
+}
